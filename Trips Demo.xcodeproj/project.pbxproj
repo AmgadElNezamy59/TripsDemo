@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1814E1432B2CD7AA00B01A88 /* FlightData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1814E1422B2CD7AA00B01A88 /* FlightData.swift */; };
+		1814E1462B2CD8F100B01A88 /* TicketShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1814E1452B2CD8F100B01A88 /* TicketShape.swift */; };
+		1814E1482B2CD9C900B01A88 /* HotelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1814E1472B2CD9C900B01A88 /* HotelData.swift */; };
+		1814E14A2B2CD9FF00B01A88 /* HalfCircleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1814E1492B2CD9FF00B01A88 /* HalfCircleShape.swift */; };
+		1814E14F2B2CDC9700B01A88 /* HotelSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1814E14E2B2CDC9700B01A88 /* HotelSearch.swift */; };
+		1814E1512B2CDF7600B01A88 /* FlightSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1814E1502B2CDF7600B01A88 /* FlightSearch.swift */; };
+		182104C62B29AFBA00C018FA /* FlightTicket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182104C52B29AFBA00C018FA /* FlightTicket.swift */; };
+		182104C92B29D19900C018FA /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 182104C82B29D19900C018FA /* Pacifico-Regular.ttf */; };
+		182104CC2B29F51B00C018FA /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182104CB2B29F51B00C018FA /* TabBar.swift */; };
+		182104D12B2A09CC00C018FA /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182104D02B2A09CC00C018FA /* Hotel.swift */; };
+		18DE84382B2DAA22001EF004 /* DummyFlightData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE84372B2DAA22001EF004 /* DummyFlightData.swift */; };
+		18F2C7732B281DFB0009035C /* Trips_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2C7722B281DFB0009035C /* Trips_DemoApp.swift */; };
+		18F2C7752B281DFB0009035C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2C7742B281DFB0009035C /* ContentView.swift */; };
+		18F2C7772B281DFC0009035C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F2C7762B281DFC0009035C /* Assets.xcassets */; };
+		18F2C77A2B281DFC0009035C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F2C7792B281DFC0009035C /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1814E1422B2CD7AA00B01A88 /* FlightData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightData.swift; sourceTree = "<group>"; };
+		1814E1452B2CD8F100B01A88 /* TicketShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketShape.swift; sourceTree = "<group>"; };
+		1814E1472B2CD9C900B01A88 /* HotelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelData.swift; sourceTree = "<group>"; };
+		1814E1492B2CD9FF00B01A88 /* HalfCircleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfCircleShape.swift; sourceTree = "<group>"; };
+		1814E14E2B2CDC9700B01A88 /* HotelSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelSearch.swift; sourceTree = "<group>"; };
+		1814E1502B2CDF7600B01A88 /* FlightSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSearch.swift; sourceTree = "<group>"; };
+		182104C52B29AFBA00C018FA /* FlightTicket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTicket.swift; sourceTree = "<group>"; };
+		182104C82B29D19900C018FA /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		182104CA2B29D5EC00C018FA /* Trips-Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Trips-Demo-Info.plist"; sourceTree = SOURCE_ROOT; };
+		182104CB2B29F51B00C018FA /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		182104D02B2A09CC00C018FA /* Hotel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotel.swift; sourceTree = "<group>"; };
+		18DE84372B2DAA22001EF004 /* DummyFlightData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyFlightData.swift; sourceTree = "<group>"; };
+		18F2C76F2B281DFB0009035C /* Trips Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trips Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F2C7722B281DFB0009035C /* Trips_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trips_DemoApp.swift; sourceTree = "<group>"; };
+		18F2C7742B281DFB0009035C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18F2C7762B281DFC0009035C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18F2C7792B281DFC0009035C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F2C76C2B281DFB0009035C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1814E13C2B2CD6E100B01A88 /* HotelSearch */ = {
+			isa = PBXGroup;
+			children = (
+				182104CD2B29F58400C018FA /* Model */,
+				182104CE2B29F58F00C018FA /* View */,
+				182104CF2B29F59600C018FA /* Controller */,
+			);
+			path = HotelSearch;
+			sourceTree = "<group>";
+		};
+		1814E13D2B2CD73E00B01A88 /* FlightSearch */ = {
+			isa = PBXGroup;
+			children = (
+				1814E13E2B2CD75800B01A88 /* Model */,
+				1814E1402B2CD76C00B01A88 /* View */,
+				1814E1412B2CD77500B01A88 /* Controller */,
+			);
+			path = FlightSearch;
+			sourceTree = "<group>";
+		};
+		1814E13E2B2CD75800B01A88 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1814E1422B2CD7AA00B01A88 /* FlightData.swift */,
+				18DE84372B2DAA22001EF004 /* DummyFlightData.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1814E1402B2CD76C00B01A88 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1814E14D2B2CDB2D00B01A88 /* Compounents */,
+				1814E1502B2CDF7600B01A88 /* FlightSearch.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1814E1412B2CD77500B01A88 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				182104C52B29AFBA00C018FA /* FlightTicket.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1814E1442B2CD83600B01A88 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				18F2C7722B281DFB0009035C /* Trips_DemoApp.swift */,
+				182104CB2B29F51B00C018FA /* TabBar.swift */,
+				18F2C7742B281DFB0009035C /* ContentView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		1814E14B2B2CDAF800B01A88 /* Compounents */ = {
+			isa = PBXGroup;
+			children = (
+				1814E1492B2CD9FF00B01A88 /* HalfCircleShape.swift */,
+			);
+			path = Compounents;
+			sourceTree = "<group>";
+		};
+		1814E14D2B2CDB2D00B01A88 /* Compounents */ = {
+			isa = PBXGroup;
+			children = (
+				1814E1452B2CD8F100B01A88 /* TicketShape.swift */,
+			);
+			name = Compounents;
+			sourceTree = "<group>";
+		};
+		182104C72B29D18900C018FA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				182104C82B29D19900C018FA /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		182104CD2B29F58400C018FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1814E1472B2CD9C900B01A88 /* HotelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		182104CE2B29F58F00C018FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1814E14E2B2CDC9700B01A88 /* HotelSearch.swift */,
+				1814E14B2B2CDAF800B01A88 /* Compounents */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		182104CF2B29F59600C018FA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				182104D02B2A09CC00C018FA /* Hotel.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18F2C7662B281DFB0009035C = {
+			isa = PBXGroup;
+			children = (
+				18F2C7712B281DFB0009035C /* Trips Demo */,
+				18F2C7702B281DFB0009035C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18F2C7702B281DFB0009035C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18F2C76F2B281DFB0009035C /* Trips Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18F2C7712B281DFB0009035C /* Trips Demo */ = {
+			isa = PBXGroup;
+			children = (
+				1814E1442B2CD83600B01A88 /* TabBar */,
+				1814E13D2B2CD73E00B01A88 /* FlightSearch */,
+				1814E13C2B2CD6E100B01A88 /* HotelSearch */,
+				182104C72B29D18900C018FA /* Fonts */,
+				18F2C7782B281DFC0009035C /* Preview Content */,
+				182104CA2B29D5EC00C018FA /* Trips-Demo-Info.plist */,
+				18F2C7762B281DFC0009035C /* Assets.xcassets */,
+			);
+			path = "Trips Demo";
+			sourceTree = "<group>";
+		};
+		18F2C7782B281DFC0009035C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				18F2C7792B281DFC0009035C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18F2C76E2B281DFB0009035C /* Trips Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F2C77D2B281DFC0009035C /* Build configuration list for PBXNativeTarget "Trips Demo" */;
+			buildPhases = (
+				18F2C76B2B281DFB0009035C /* Sources */,
+				18F2C76C2B281DFB0009035C /* Frameworks */,
+				18F2C76D2B281DFB0009035C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trips Demo";
+			productName = "Trips Demo";
+			productReference = 18F2C76F2B281DFB0009035C /* Trips Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18F2C7672B281DFB0009035C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					18F2C76E2B281DFB0009035C = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 18F2C76A2B281DFB0009035C /* Build configuration list for PBXProject "Trips Demo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18F2C7662B281DFB0009035C;
+			productRefGroup = 18F2C7702B281DFB0009035C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18F2C76E2B281DFB0009035C /* Trips Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18F2C76D2B281DFB0009035C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182104C92B29D19900C018FA /* Pacifico-Regular.ttf in Resources */,
+				18F2C77A2B281DFC0009035C /* Preview Assets.xcassets in Resources */,
+				18F2C7772B281DFC0009035C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18F2C76B2B281DFB0009035C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1814E1482B2CD9C900B01A88 /* HotelData.swift in Sources */,
+				182104D12B2A09CC00C018FA /* Hotel.swift in Sources */,
+				182104CC2B29F51B00C018FA /* TabBar.swift in Sources */,
+				1814E14A2B2CD9FF00B01A88 /* HalfCircleShape.swift in Sources */,
+				1814E1512B2CDF7600B01A88 /* FlightSearch.swift in Sources */,
+				182104C62B29AFBA00C018FA /* FlightTicket.swift in Sources */,
+				1814E1462B2CD8F100B01A88 /* TicketShape.swift in Sources */,
+				18F2C7752B281DFB0009035C /* ContentView.swift in Sources */,
+				18DE84382B2DAA22001EF004 /* DummyFlightData.swift in Sources */,
+				18F2C7732B281DFB0009035C /* Trips_DemoApp.swift in Sources */,
+				1814E14F2B2CDC9700B01A88 /* HotelSearch.swift in Sources */,
+				1814E1432B2CD7AA00B01A88 /* FlightData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18F2C77B2B281DFC0009035C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18F2C77C2B281DFC0009035C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18F2C77E2B281DFC0009035C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Trips Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = 8GQ8C48ZJT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Trips-Demo-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amgadElnezamy.Trips-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18F2C77F2B281DFC0009035C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Trips Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = 8GQ8C48ZJT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Trips-Demo-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amgadElnezamy.Trips-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F2C76A2B281DFB0009035C /* Build configuration list for PBXProject "Trips Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F2C77B2B281DFC0009035C /* Debug */,
+				18F2C77C2B281DFC0009035C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F2C77D2B281DFC0009035C /* Build configuration list for PBXNativeTarget "Trips Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F2C77E2B281DFC0009035C /* Debug */,
+				18F2C77F2B281DFC0009035C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18F2C7672B281DFB0009035C /* Project object */;
+}
